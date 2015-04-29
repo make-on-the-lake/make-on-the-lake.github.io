@@ -1,0 +1,21 @@
+body {
+  background: url('/assets/img/bg.jpeg');
+}
+
+/* Page Header */
+.page-header {
+  background: url('/assets/img/banner.jpeg') center center no-repeat #3C86B1;
+  position: relative;
+  z-index: 999;
+  -webkit-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
+}
+
+/* Main Content */
+.main-content {
+  background: white;
+  -webkit-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
+}
