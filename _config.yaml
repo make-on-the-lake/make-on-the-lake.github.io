@@ -1,0 +1,8 @@
+safe: true
+exclude:
+  - /vendor
+  - /.bundle
+  - /Rakefile
+  - /lib
+  - /hooks
+motlurl: http://www.meetup.com/Make-on-the-Lake/
