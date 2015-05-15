@@ -1,3 +1,4 @@
+paginate: 5
 safe: true
 exclude:
   - /vendor
@@ -5,4 +6,5 @@ exclude:
   - /Rakefile
   - /lib
   - /hooks
+baseurl: ''
 motlurl: http://www.meetup.com/Make-on-the-Lake/

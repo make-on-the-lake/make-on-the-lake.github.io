@@ -1,0 +1,12 @@
+<p class="post-meta">
+  <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+  <div class="post-links">
+    Links:
+    {% if post.meetup_url %}
+      <a href="{{ post.meetup_url }}">Meetup</a>
+    {% endif %}
+    {% if post.github_url %}
+      <a href="{{ post.github_url }}">Github</a>
+    {% endif %}
+  </div>
+</p>

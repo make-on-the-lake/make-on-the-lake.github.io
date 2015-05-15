@@ -1,5 +1,24 @@
 body {
   background: url('/assets/img/bg.jpeg');
+  background-attachment: fixed;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+h1, h2 {
+  background: #3C86B1;
+  color: #fff !important;
+  text-align: center;
+  padding: 5px;
+}
+
+h1 a, h2 a {
+  background: #3C86B1;
+  color: #fff !important;
+  text-align: center;
+  padding: 5px;
 }
 
 /* Page Header */
@@ -7,9 +26,6 @@ body {
   background: url('/assets/img/banner.jpeg') center center no-repeat #3C86B1;
   position: relative;
   z-index: 999;
-  -webkit-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
-  box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
 }
 
 /* Main Content */
@@ -18,4 +34,13 @@ body {
   -webkit-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
   box-shadow: 0px 9px 17px -6px rgba(0,0,0,0.75);
+}
+
+.content {
+  float:left;
+}
+
+.sidebar {
+  float: left;
+  width: 33%;
 }
